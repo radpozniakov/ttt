@@ -1,7 +1,7 @@
 {
     "name": "🔓 Unlock Layers",
     "version": "1.0.0",
-    "appcast": "",
+    "appcast": "https://raw.githubusercontent.com/radpoznyakov/ttt/master/appcast.xml",
     "description": "Unlock all layers on your artboard",
     "author": "Rad Poznyakov",
     "authorEmail": "rad.poznyakov@gmail.com",
