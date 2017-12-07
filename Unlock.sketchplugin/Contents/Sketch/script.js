@@ -19,16 +19,18 @@ function onRun(context) {
     			[layer setIsLocked: false];
     			numUnlocked++;
     		}
-        
+
     		if ([layer isMemberOfClass:[MSLayerGroup class]]) {
     			unlockLayers([layer layers]);
     		}
     	}
-      
+
     	if(numUnlocked > 0){
           [doc showMessage: numUnlocked + " unlocked"];
       }else{
         [doc showMessage: "No locked layers"];
-      }  
+      }
     }
 }
+
+//lol
